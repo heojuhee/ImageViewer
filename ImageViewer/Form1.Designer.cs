@@ -46,7 +46,6 @@
             this.picImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picImg.TabIndex = 0;
             this.picImg.TabStop = false;
-            this.picImg.Click += new System.EventHandler(this.PicImg_Click);
             // 
             // lblNum
             // 
@@ -109,16 +108,17 @@
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(12, 162);
+            this.btnNext.Location = new System.Drawing.Point(172, 162);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(96, 61);
             this.btnNext.TabIndex = 2;
             this.btnNext.Text = "다음";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.BtnNext_Click);
             // 
             // btnPrev
             // 
-            this.btnPrev.Location = new System.Drawing.Point(172, 162);
+            this.btnPrev.Location = new System.Drawing.Point(12, 162);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Size = new System.Drawing.Size(96, 61);
             this.btnPrev.TabIndex = 3;
