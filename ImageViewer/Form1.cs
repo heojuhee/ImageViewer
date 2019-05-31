@@ -16,5 +16,25 @@ namespace ImageViewer
         {
             InitializeComponent();
         }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PicImg_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnPrev_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
